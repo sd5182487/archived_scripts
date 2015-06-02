@@ -1,0 +1,25 @@
+1. 
+Voice recognition system : Since the system is designed for a car, users mostly would operate this system with voice rather than keyboard or touchpad. So a tool like Siri is desirable for it.
+
+Voice chat tool(like skype) : Driver can say hi and chat with nearby friends or interesting strangers.
+
+map system : could be easier if use google map or other map product(as they already imbedded some 'friend around' features). But this tool also a need to located friends and user himself.
+
+phone contact or some specific designed tool : to record friends hobbies, tracks, interested locations, recommend restaurants and so on(more like a Facebook with yelp). So when open this system, this tool will feed driver related information.
+
+for the tool upside, adding collaborative filtering techs to improve its performance. The predict strangers which share some interest with driver would be more accurate and really liked by driver.
+
+2.
+car model/color/type : if same, more likely to share some interest
+driver information : age,sex,job area,personal interests
+location information : where from/to, same specific target?(cinema,restaurant ...)
+radio channel on : probably same music interest
+3. 
+rounded 3M model (actually 2M):
+Rip off Micro level. Considering the Meso : where's the driver have been in last 1 hour? How about this morning/noon/afternoon ? Does drive just came out of cinema and going to restaurant? From these information system can find someone around who temporarily share the same interest.
+Macro: Where's the driver in last week ? Is there any pattern of the places? We can analyze it and generate some place that driver been to mostly, and these places are more likely his interests.Afterwards system could use this data as reference in further recommends.
+4.
+New comers to this system doesn't have any information for the system to evaluate, so some earlier rides would be hard to be 'social'.
+Solution : create some on screen query forms when driver sets up the car(like some music website do for new user)
+Sometimes driver want to be alone, so there should be a one click way to open/close this system.
+Handicap vehicle driving : this car looks like a nice fit for the disabled, should get some special features for them(nearest handicap parking, handicap accessible road/building/elevators)
